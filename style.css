@@ -38,8 +38,7 @@ h3 {
   color: var(--purple);
 }
 
-ul li::marker,
-ol li::marker {
+li::marker {
   color: var(--darkRed);
   font-weight: 700;
 }

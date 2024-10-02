@@ -1,8 +1,8 @@
 :root {
   --backgroundColor: bisque;
   --cardColor: rgb(255, 255, 255);
-  --primaryColor: rgb(153, 13, 13);
-  --secondaryColor: rgb(153, 19, 119);
+  --darkRed: rgb(153, 13, 13);
+  --purple: rgb(153, 19, 119);
 }
 * {
   box-sizing: border-box;
@@ -31,16 +31,16 @@ h1 {
 }
 h2 {
   font-size: 20px;
-  color: var(--primaryColor);
+  color: var(--darkRed);
 }
 h3 {
   font-size: 15px;
-  color: var(--secondaryColor);
+  color: var(--purple);
 }
 
 ul li::marker,
 ol li::marker {
-  color: var(--primaryColor);
+  color: var(--darkRed);
   font-weight: 700;
 }
 .section-break {
@@ -94,6 +94,6 @@ table td {
   padding: 10px;
 }
 table .number {
-  color: var(--primaryColor);
+  color: var(--darkRed);
   font-weight: 700;
 }

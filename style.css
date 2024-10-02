@@ -35,10 +35,9 @@ h2 {
 }
 h3 {
   font-size: 15px;
-}
-h3 {
   color: var(--secondaryColor);
 }
+
 ul li::marker,
 ol li::marker {
   color: var(--primaryColor);
@@ -59,7 +58,7 @@ ol li::marker {
 }
 .card {
   width: 90%;
-  margin: auto;
+  margin: 6rem auto;
   max-width: 600px;
   height: auto;
   background-color: var(--cardColor);
@@ -80,6 +79,11 @@ section li {
 section ul li label,
 section ol li label {
   font-weight: 700;
+}
+
+.Preparation-time {
+  background-color: rgba(153, 19, 119, 0.1);
+  padding: 15px;
 }
 table {
   width: 100%;
